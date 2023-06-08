@@ -34,8 +34,8 @@ join "Dept_emp" de on e.emp_no = de.emp_no
 join "Department" d on de.dept_no = d.dept_no
 where d.dept_name = 'Sales', 'Development';
 
-SELECT last_name, COUNT(*) AS frequency
-FROM "Employees"
-GROUP BY last_name
-ORDER BY frequency DESC;
+select last_name, count(*) as frequency
+from "Employees"
+group by last_name
+order by frequency desc;
 
