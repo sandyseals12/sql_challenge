@@ -27,5 +27,5 @@ Query: Retrieve employee last names and their frequency
 
 Retrieves the last name and the count of occurrences (frequency) for each last name from the "Employees" table, ordered by frequency in descending order.
 
-Table Summary 
+
 
