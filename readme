@@ -1,0 +1,31 @@
+Query Summary
+
+This SQL code consists of several SELECT statements that retrieve data from the "Employees" database. Each SELECT statement serves a specific purpose and retrieves different information. Below is a summary of each query:
+
+Query: Retrieve employee details and salaries
+
+Retrieves employee number, last name, first name, sex, and salary from the "Employees" and "Salaries" tables using an inner join.
+Query: Retrieve employee details hired between 1986 and 1987
+
+Retrieves the first name, last name, and hire date of employees hired between January 1, 1986, and January 1, 1987, from the "Employees" table.
+Query: Retrieve department manager details
+
+Retrieves the department number, department name, employee number, last name, and first name of department managers from the "Dept_manager," "Department," and "Employees" tables using multiple joins.
+Query: Retrieve employee department details
+
+Retrieves the employee number, last name, first name, department number, and department name of employees from the "Employees," "Dept_emp," and "Department" tables using multiple joins.
+Query: Retrieve employees with specific first name and last name pattern
+
+Retrieves the first name, last name, and sex of employees with the first name "Hercules" and last name starting with "B" from the "Employees" table.
+Query: Retrieve employees in the Sales department
+
+Retrieves the employee number, last name, and first name of employees working in the Sales department from the "Employees," "Dept_emp," and "Department" tables using multiple joins.
+Query: Retrieve employees in the Sales and Development departments
+
+Retrieves the employee number, last name, and first name of employees working in either the Sales or Development departments from the "Employees," "Dept_emp," and "Department" tables using multiple joins.
+Query: Retrieve employee last names and their frequency
+
+Retrieves the last name and the count of occurrences (frequency) for each last name from the "Employees" table, ordered by frequency in descending order.
+
+Table Summary 
+
